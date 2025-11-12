@@ -73,7 +73,7 @@ const LandingPage = () => {
               <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
               <a href="#testimonials" className="text-gray-600 hover:text-gray-900 transition-colors">Testimonials</a>
               <Link 
-                to="/app" 
+                to="/register" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all duration-200"
               >
                 Get Started
@@ -95,7 +95,7 @@ const LandingPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                to="/app" 
+                to="/register" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-lg hover:shadow-lg transition-all duration-200 flex items-center justify-center"
               >
                 Get Started
@@ -230,7 +230,7 @@ const LandingPage = () => {
             Join thousands of businesses already using Frooxi Finance to streamline their operations
           </p>
           <Link 
-            to="/app" 
+            to="/register" 
             className="bg-white text-purple-600 px-8 py-4 rounded-lg hover:shadow-lg transition-all duration-200 inline-flex items-center font-semibold"
           >
             Start Free Trial
